@@ -15,16 +15,16 @@ Crie um algoritmo que transforme as notas do sistema numérico para sistema de n
 // let gradeMinimumLow = 60
 // let veryLow = 59
 
-let nota = 59
+let score = 78
 
-if(nota >= 90){
-    console.log('Resultado: A')
-} else if(nota >= 80){
-    console.log('Resultado: B')
-} else if(nota >= 70 ){
-    console.log('Resultado: C')
-} else if(nota >= 60 ){
-    console.log('Resultado: D')
+if(score >= 90){
+    console.log(`Nota: ${score} Resultado: A`)
+} else if(score >= 80){
+    console.log(`Nota: ${score} Resultado: B`)
+} else if(score >= 70 ){
+    console.log(`Nota: ${score} Resultado: C ` )
+} else if( score >= 60 ){
+    console.log(`Nota: ${score} Resultado: D ` )
 } else{
-    console.log('Resultado: F')
-}
+   console.log(`Nota: ${score} Resultado: F ` )
+} 
