@@ -13,7 +13,7 @@ let family = {
    expense: [45, 60, 5]
 }
 
-function amount(array){
+function sum(array){
    let sumTotal = 0;
 
    for (let value of array) {
@@ -25,8 +25,8 @@ function amount(array){
 
 
 function calculateBalance(){
-    const calculateIncomes = amount(family.income)
-    const calculateExpenses = amount(family.expense)
+    const calculateIncomes = sum(family.income)
+    const calculateExpenses = sum(family.expense)
     
     const total = calculateIncomes - calculateExpenses
 
